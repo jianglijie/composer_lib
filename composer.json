@@ -1,0 +1,20 @@
+{
+    "name": "jianglijie/composer_lib",
+    "description": "first composer.use it to test and record library",
+    "authors": [
+        {
+            "name": "jianglijie",
+            "email": "jianglj@jianglijie.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4"	
+    },
+    "autoload": {
+        "psr-4": {
+            "Demo1\\t1\\": "src/Demo1/t1",
+            "Demo1\\t2\\": "src/Demo1/t2"
+        }
+    }
+}
